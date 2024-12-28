@@ -1,0 +1,50 @@
+.userinfo {
+    position: relative; /* Измените на relative, чтобы избежать абсолютного позиционирования */
+    font-size: 2vw;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    padding: 20px; /* Добавьте отступ для лучшего дизайна */
+    margin-bottom: 20px; /* Отступ между контейнерами */
+}
+
+.result {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ava{
+    margin-top: 15vw;
+    height: 8vw;
+    width: 8vw;
+    border-radius: 500vw;
+    border: 0.05vw, solid, rgb(93, 93, 93);
+
+}
+
+.userinfo h1{
+    color: black;
+    text-shadow: 0vw 0vw 0vw rgb(98, 98, 98);
+    font-size: 3vw;
+    margin-top: 1vw;
+}
+.userinfo h2 {
+    color: rgb(76, 76, 76);
+    text-shadow: 0vw 0vw 0vw rgb(98, 98, 98);
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+
+.userinfo button{
+    margin-top: 15vw;
+    color: rgb(223, 52, 52);
+}
+
+
+.result img{
+    height: 30vw;
+    width: 30vw;
+}
+.result h1{
+    font-size: 5vw;
+    margin-top: 1vw;
+}

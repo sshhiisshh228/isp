@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+<header id="down_header">
+    <a href="../HarryPotter.html" class="logo"><img src="../img/logo.png" alt=""></a>
+
+<ul class="pages">
+
+    <li><a href="../HarryPotter.html">ХОГВАРТС</a></li>
+    <li><a href="./actors.html"> АКТЕРЫ</a></li>
+    <li><a href="./sov.html"> "СОВ"</a></li>
+    <li><a href="./my_room.html" id="username"></a></li>
+</ul>
+
+</header>
+<div class="black-background"></div>
+
+
+
+        <div class="container-sov" id="sov">
+            <h1>ЭКЗАМЕН</h1>
+        
+            <form name="test_form" novalidate class="test-form">
+                <div class="test-column-one">
+                    <div class="q1">
+                        <h2>1. Кто из Уизли погибает во время финальной битвы за Хогвартс?</h2>
+                        <p class="true"><input type="radio" name="q1" class="q-radio" value="true">Фред</p>
+                        <p><input type="radio" name="q1" class="q-radio">Рон</p>
+                        <p><input type="radio" name="q1" class="q-radio">Джордж</p>
+                        <p><input type="radio" name="q1" class="q-radio">Артур</p>
+        
+                    </div>
+        
+                    <div class="q2">
+                        <h2>2. Какое животное является символом факультета Когтевран?</h2>
+                        <p><input type="radio" name="q2" class="q-radio">лев</p>
+                        <p><input type="radio" name="q2" class="q-radio">змея</p>
+                        <p class="true"><input type="radio" name="q2" class="q-radio" value="true">орел</p>
+                        <p><input type="radio" name="q2" class="q-radio">кот</p>
+        
+                    </div>
+        
+                    <div class="q3">
+                        <h2>3. Когда у Гарри Поттера день рождения?</h2>
+                        <p><input type="radio" name="q3" class="q-radio">29 июля</p>
+                        <p><input type="radio" name="q3" class="q-radio">31 июня</p>
+                        <p><input type="radio" name="q3" class="q-radio">30 июня</p>
+                        <p class="true"><input type="radio" name="q3" class="q-radio" value="true">31 июля</p>
+        
+                    </div>
+                </div>
+        
+        
+                <div class="test-column-two">
+                    <h2>4. Мальчик, который выжил, пришел снова, чтобы........."</h2>
+                    <input type="text" id="q4" name="q4" required pattern="[Уу]мереть">
+                    <label for="q4" class="q4 true_text">Life</label>
+        
+                    <h2>5. Как зовут собаку Хагрида?</h2>
+                    <input type="text" id="q5" name="q5" required pattern="[Кк]лык">
+                    <label for="q5" class="q5 true_text">Dragon</label>
+        
+                    <h2>6. Как называется семейный дом Уизли?</h2>
+                    <input type="text" id="q6" name="q6" required pattern="[Нн]ора">
+                    <label for="q6" class="q6 true_text">Rotten flesh</label>
+                </div>
+        
+                <button type="submit" class="test">ответить</button>
+            </form>
+        
+            <button id="reset" class="reset">еще раз</button>
+
+            <h1 class="result" id="result-main"></h1>
+        
+        
+        </div>
+
+
+            <footer>
+                <h1>КОНТАКТЫ</h1>
+
+                <div>
+                    <a href=""><img src="../img/pinterest.png" alt=""></a>
+                    <a href=""><img src="../img/vk.png" alt=""></a>
+                    <a href=""><img src="../img/youtube.png" alt=""></a>
+                </div>
+        <h2>© 2024 Harry Potter. TM Microsoft Corporation.</h2>
+            </footer>
+
+    <script src="../js/my_room.js"></script>
+        
+    <script src="../js/sov.js"></script>
+</body>
+</html>

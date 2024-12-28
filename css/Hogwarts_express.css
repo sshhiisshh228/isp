@@ -1,0 +1,72 @@
+body{
+    background-image: url(../img/fon2.png);
+    background-size: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.login-box{
+    font-size: 2vw;
+    background-color: rgb(108, 103, 155);
+    border: 0.5vw, solid, rgb(81, 65, 139);
+
+    display: flex;
+    flex-direction:column;
+
+    margin-top: 10vw;
+    margin-left: 30vw;
+    margin-bottom: 10vw;
+
+    text-align: center;
+        
+    height: 27vw;
+    width: 40vw;
+}
+
+.erorr_output{
+    color: rgb(228, 30, 30);
+    text-shadow: 0vw 0vw 0vw rgb(91, 86, 133);
+    opacity: 0;
+    margin-top: -0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.login-box h1{
+    margin-bottom: 1vw;
+    font-size: 3vw;
+}
+.login-box form{
+    display: flex;
+    flex-direction: column;
+}
+.sex {
+    background-color: white;
+    box-shadow: 0vw 0.5vw 0vw rgb(95, 83, 134);
+    color: rgb(67, 63, 107);
+
+    margin-left: 10vw;
+    margin-bottom: 1vw;
+    height: 3vw;
+    width: 20vw;
+
+}
+
+.login-box input{
+    background-color: white;
+    box-shadow: 0vw 0.5vw 0vw rgb(88, 92, 124);
+    color: rgb(77, 71, 125);
+
+    margin-left: 10vw;
+    margin-bottom: 1vw;
+    height: 3vw;
+    width: 20vw;
+}
+
+.login-box button{
+    background-color: rgb(89, 47, 214);
+    height: 3vw;
+    width: 10vw;
+    box-shadow: 0vw 0.5vw 0vw rgb(46, 30, 140);
+    margin-left: 15vw;
+    margin-top: 1vw;
+}

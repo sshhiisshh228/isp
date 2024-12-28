@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/Hogwarts_express.css">
+</head>
+
+<body>
+
+    <header id="down_header">
+        <a href="../Harry Potter.html" class="logo"><img src="../img/logo.png" alt=""></a>
+
+        <ul class="pages">
+
+            <li><a href="../HarryPotter.html">ХОГВАРТС</a></li>
+            <li><a href="../HarryPotter#АКТЕРЫ"> АКТЕРЫ</a></li>
+            <li><a href="../HarryPotter#СОВ"> "СОВ"</a></li>
+            <li><a href="" id="username">аккаунт</a></li>
+        </ul>
+    </header>
+    <div class="black-background"></div>
+
+    <main>
+        <div class="login-box">
+            <h1>ВХОД</h1>
+            <form name="form_one" novalidate class="">
+                <input type="text" id="login_input" name="login_input" placeholder="login" pattern="[аА-яЯ]+" required>
+                <div class="erorr_output">А-я(4-10 letters)</div>
+                <input type="date" id="date_input" name="date_input" min="1924-12-01" max="2024-12-01" required>
+                <div class="erorr_output">12.01.1924 - 12.01.2024</div>
+
+                <select id="sex" name="sex" class="sex">
+                    <option value="волшебник">волшебник</option>
+                    <option value="волшебница">волшебница</option>
+                </select>
+                <div class="erorr_output"></div>
+                <button id="btn_singIn" type="submit">enter</button>
+
+            </form>
+
+
+
+        </div>
+
+
+    </main>
+    <footer>
+        <h1>КОНТАКТЫ</h1>
+
+        <div>
+            <a href=""><img src="../img/pinterest.png" alt=""></a>
+            <a href=""><img src="../img/vk.png" alt=""></a>
+            <a href=""><img src="../img/youtube.png" alt=""></a>
+        </div>
+        <h2>© 2024 Harry Potter. TM Microsoft Corporation.</h2>
+    </footer>
+
+
+
+    <script src="../js/Hogwarts_express.js"></script>
+
+</body>
+
+</html>
